@@ -45,6 +45,11 @@ Launch EC2 Instance
   - 22 (SSH)
   - 80 (HTTP)
   - 3000 (App Port)
+ 
+## Screenshot
+![Screenshot](ec2.png)
+
+    
 
 ---
 
