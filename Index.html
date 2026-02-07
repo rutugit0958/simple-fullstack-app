@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Simple App</h2>
+<button onclick="check()">Check Backend</button>
+
+<script>
+function check() {
+  fetch("http://localhost:3000")
+    .then(res => res.text())
+    .then(data => alert(data));
+}
+</script>
+
+</body>
+</html>
